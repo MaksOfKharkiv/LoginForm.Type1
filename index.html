@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <title>Login Form. Type 1</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<div class="wrapper">
+        <form class="container">
+                <div class="form__apps">
+                        <div class="form__ribbon">
+                                <div class="form__ribbon-circle">
+                                        <img src="./images/close.png" alt="close icon" class="form__ribbon-icon">
+                                </div>
+                        </div>
+                        <div class="form__circle">
+                                <div class="form__circle-second"></div>
+                        </div>
+                        <div class="form__ribbon-triangle1"></div>
+                        <div class="form__ribbon-triangle2"></div>
+                        <div class="form__button">
+                                <div class="form__button-message">
+                                        By clicking on <span class="color-black">"Create an account"</span> below, you are agreeing to the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a>.
+                                </div>
+                                <button>
+                                        <span class="form__button-shadow">
+                                                <img src="./images/shadow.png" alt="shadow image">
+                                        </span>
+                                        <img src="./images/button.png" alt="button icon">
+                                </button>
+                        </div>
+                </div>
+                <div class="form__header">
+                        <img src="./images/logo.png" alt="image" class="form__header-image">
+                        <h2 class="form__header-name">sign now free</h2>
+                </div>
+                <div class="form__body">
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="text" minlength="4" id="user" placeholder="pseudonyme" required>
+                                        <label for="user" class="form__input-image flex-center">
+                                                <img src="./images/user_black.png" alt="user-black icon" class="form__input-hide">
+                                                <img src="./images/user.png" alt="user icon" class="form__input-hover">
+                                        </label>
+                                        <label for="user" class="form__input-valid">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-required">
+                                        <img src="./images/required.png" alt="required icon" class="form__input-star">
+                                </div>
+                        </div>
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="password" minlength="7" pattern="(?=.*\d)(?=.*[a-z]).{7,}" id="password" placeholder="password" required>
+                                        <label for="password" class="form__input-image flex-center form__input-password">
+                                                <img src="./images/password_black.png" alt="password-black icon" class="form__input-hide">
+                                                <img src="./images/password.png" alt="password-icon" class="form__input-hover">
+                                        </label>
+                                        <label for="user" class="form__input-valid">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-required">
+                                        <img src="./images/required.png" alt="required icon" class="form__input-star">
+                                </div>
+                                <div class="form__input-info flex-center">
+                                        <img src="./images/info_black.png" alt="info-black icon" class="form__input-icon1">
+                                        <img src="./images/info.png" alt="info icon" class="form__input-icon2">
+                                        <div class="form__input-message">
+                                                Must contain one lowercase letter, one number, and be at least 7 characters long.
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="password" minlength="7" pattern="(?=.*\d)(?=.*[a-z]).{7,}" id="password-repeat" placeholder="repeat password" required>
+                                        <label for="password-repeat" class="form__input-image flex-center form__input-password">
+                                                <img src="./images/password-repeat_black.png" alt="password-repeat-black icon" class="form__input-hide">
+                                                <img src="./images/password-repeat.png" alt="password-repeat icon" class="form__input-hover">
+                                        </label>
+                                        <label for="user" class="form__input-valid">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-required">
+                                        <img src="./images/required.png" alt="required icon" class="form__input-star">
+                                </div>
+                        </div>
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" placeholder="e-mail" required>
+                                        <label for="email" class="form__input-image flex-center form__input-email">
+                                                <img src="./images/email_black.png" alt="email-black icon" class="form__input-hide">
+                                                <img src="./images/email.png" alt="email icon" class="form__input-hover">
+                                        </label>
+                                        <label for="user" class="form__input-valid">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-required">
+                                        <img src="./images/required.png" alt="required icon" class="form__input-star">
+                                </div>
+                        </div>
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="text" pattern="[0-9]{2,3}" id="age" placeholder="age" required>
+                                        <label for="age" class="form__input-image flex-center form__input-age">
+                                                <img src="./images/age_black.png" alt="age-black icon" class="form__input-hide">
+                                                <img src="./images/age.png" alt="age icon" class="form__input-hover">
+                                        </label>
+                                        <label for="user" class="form__input-valid">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-required">
+                                        <img src="./images/required.png" alt="required icon" class="form__input-star">
+                                </div>
+                        </div>
+                        <div class="form__input-wrapper">
+                                <div class="form__input-box">
+                                        <input type="checkbox" id="subscribe">
+                                        <label for="subscribe" class="form__input-subscribe">
+                                                <img src="./images/check.png" alt="check icon">
+                                        </label>
+                                </div>
+                                <div class="form__input-text">
+                                        subscribe to our <span>newsletter</span>
+                                </div>
+                                <div class="form__input-info flex-center form__checkbox-info">
+                                        <img src="./images/info_black.png" alt="info-black icon" class="form__input-icon1">
+                                        <img src="./images/info.png" alt="info icon" class="form__input-icon2">
+                                        <div class="form__input-message form__checkbox-message">
+                                                If you would like to subscribe to our <span class="color-black">mailing list</span>, please fill out the form below.
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="form__footer">
+                        <span class="form__footer-text text-italic">Required fields</span>
+                        <div class="form__footer-image">
+                                <img src="./images/required.png" alt="required icon">
+                        </div>
+                </div>
+        </form>
+        <div class="source flex-center">
+               <div class="source__links">
+                       Template source <a href="https://dribbble.com/shots/1609577-Blue-Login-Form-Freebies">here</a> and font source <a href="https://www.designcontest.com/webissimo-font/">here</a> and <a href="http://customfonts.4thfebruary.com.ua/sansus-webissimo/">here</a>
+               </div>
+        </div>
+</div>
+<script src="./js/scripts.js"></script>
+</body>
+</html>
