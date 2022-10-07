@@ -115,7 +115,6 @@ button {
     max-width: 900px;
     background: var(--white);
     margin: 0 auto;
-    padding: 0 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
